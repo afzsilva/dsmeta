@@ -8,7 +8,7 @@ export default function Header() {
         <div className='dsmeta-logo-container'>
             <img src={icon} alt="header"/>
             <h1>DSMeta</h1>
-            <p>Desenvolvido por <a href="https://www.instagram.com/devsuperior.ig/">@devsuperior.ig</a></p>
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/afranioz-analista-sistemas/">@afraniozsilva.in</a></p>
         </div>
     </header>
   )

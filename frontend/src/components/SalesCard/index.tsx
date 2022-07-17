@@ -27,8 +27,7 @@ export default function SalesCard() {
     
     //axios.get(`${BASE_URL}/sales`)
     axios.get(`${BASE_URL}/sales?minDate=${dmin}&maxDate=${dmax}`)
-    .then(response=>{      
-      //console.log(response.data.content);
+    .then(response=>{            
       setSales(response.data.content);
     })
 
